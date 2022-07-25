@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+		content="width=device-width, initial scale 1.0">
+		<link rel="shotcuts icon" href="icone.png" alt="icone">
+		<title>Midias em HTML</title>
+	</head>
+	<body>
+		<h1>Imagens Dinâmicas</h1>
+		<p>Tente abrir esse site me vários dispositivos diferentes
+			ou simplesmente aumente e diminua o tamanho do seu
+		navegador.</p>
+		<picture>
+			<!--a imagem padrão deve ficar embaixo dos sources que você vai criar, a imagem padrão é a tag img que você colocara primeiro -->
+			<source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+			<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+			<img src="imagens/foto-g.png" alt="imagem flexivel">
+		</picture>
+		<h1>Reproduzindo audios</h1>
+		<p>Vamos aprender a reproduzir audio em HTML5.</p>
+		<audio src="midia/roots.m4a" controls autoplay></audio>
+		<h1>Segunda Mnaeira</h1>
+		<audio preload="metadata" autoplay controls>
+			<source src="midia/matanza.wav" type="audio/wav">
+		</audio>
+		<!--compatibilidade dos audios mp3,wav e ogg-->
+		<!--Nenhum desses códigos funcionou, deve ser problemas no navegador -->
+
+	</body>
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+	content="width=device-width, initial scale 1.0">
+	<title>Fontes em CSS</title>
+	<link rel="stylesheet" href="estilo.css">
+	<style>
+		body {
+			font-family: work sans, arial, helvetica, sans-serif;
+			/* Medidas Absolutas
+			centimetros: cm; milimetro: mm; in: polegada; 
+			pixel: px; ponto: pt; paica: ;
+
+			Medidas Relativas
+			em: tamanho relativo da fonte; ex: relativo a altura x da fonte; rem: relativo ao rot, tamanho configurado na fonte;
+			vw: largura da viewport, ou seja, da sua tela; vh: altura da viewport ;
+			16px geralmente é igual a 1em
+			O mais recomendado é uilizar as medidas px ou em
+			*/
+
+			font-size: 1em;
+			font-weight: normal;
+			/*lighter normal bold bolder*/
+			font-style: italic;
+		}
+
+		h1{
+			font-family: work sans, sans-serif;
+			font-weight: bolder;
+			fontt-size: 3em;
+			font-style: italic;
+			/*shorthand font
+			Serve para simplificar e reduzir o uso de linhas, 
+			basta anotar a sua sequência.
+			ex: font-style -> font-weight -> font-size -> font-family */
+
+			font: italic bolder 3em work sans, sans-serif;
+		}
+		 
+		h2 {
+			font-family: times new roman, times, serif;
+			font: bold 2em work sans, times new roman;
+
+		}
+
+
+	</style>
+</head>
+
+<body>
+	<h1>Trabalhando com Fontes</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+	<h2>Subtitulo do exercicio</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	
+
+</body>
+
+</html>

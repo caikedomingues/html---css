@@ -1,0 +1,2 @@
+"../"é o mesmo que voltar a página anterior, serve para links internos em pastas diferentes
+
