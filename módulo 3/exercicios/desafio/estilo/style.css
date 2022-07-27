@@ -1,13 +1,27 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC & family= Arima:wght@100 & family= Bebas+Neue & family= Edu+SA+Beginner & family= Edu+VIC+WA+NT+Iniciante & família= Paixão+Um & família= Roboto+Slab:wght@200 & family= Roboto:ital,wght@0,100;0,500;0,700;1,400 & family= Splash & family= Work+ Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC & family= Arima:wght@100 & family= Bebas+Neue & family= Edu+SA+Beginner & family= Edu+VIC+WA+NT+Beginner & family= Roboto+Slab:wght@200 & family= Roboto:ital,wght@0,100;0,500;0,700;1,400 & family= Splash & family= Sriracha & family= Work+Sans: ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap');
+
+:root{
+	--fonte1: verdana, geneva, tahoma, sans-serif;
+	--fonte2:  "passion one", cursive;
+	--fonte3: "sriracha", cursive;
+
+
+}
+
 *{
 	margin: 0px;
 	padding: 0px;
+	font-size: 1em;
 }
 
 html, body{
 	min-height: 100vh;
 	background-color: darkgray;
+	font-family: var(--fonte1);
 
 }
 
@@ -21,6 +35,8 @@ header{
 header > h1{
 	padding-top: 50px;
 	font-variant: small-caps;
+	font-family: var(--fonte2);
+	font-size: 10vw;
 }
 
 header > p{
@@ -43,19 +59,25 @@ section{
 	padding-bottom: 10vh;
 	line-height: 2em;
 	padding-left: 30px;
+	font-family: var(--fonte3);
+	font-size: 3.5vw;
 }
 
 section.normal{
 	background-color: white;
-	color: normal;
+	color: black;
 }
 
-section.normal > p{
-	width: 400px;
-	background-color: rgb(0, 0, 0, 0.253);
+
 }
 
-section.normal{
+section.imagem > p{
+	display: inline-block;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.253);
+}
+
+section.imagem{
 	background-color: rgb(51, 51, 51);
 	color: white;
 }
