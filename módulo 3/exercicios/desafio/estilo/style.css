@@ -86,13 +86,13 @@ section.imagem{
 	color: white;
 }
 
-section#img01{
+#img01{
 	background-image: url("imagens/imagem01.jpg");
-
 }
 
-section#img2{
-	background-image: url("imagens/imagem02.jpg");
+#img02 {
+
+
 
 }
 
