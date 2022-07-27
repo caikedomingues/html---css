@@ -86,14 +86,9 @@ section.imagem{
 	color: white;
 }
 
-#img01{
+section#imagem1{
 	background-image: url("imagens/imagem01.jpg");
-}
-
-#img02 {
-
-
-
+	background-position: right center;
 }
 
 
