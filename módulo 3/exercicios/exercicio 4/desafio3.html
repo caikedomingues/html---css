@@ -10,6 +10,16 @@
 			border: 1px solid black;
 			padding: 10px;
 		}
+
+		th{
+			background-color: lightgray;
+			color: white;
+		}
+
+		.total{
+			background-color: lightgray;
+			color: white;
+		}
 	</style>
 </head>
 
@@ -22,12 +32,15 @@
 
 		<thead>
 		 <tr>
-			<th rowspan="2">Área</th>
-			<th  rowspan="2">Disciplinas</th>
-			<th>Notas</th>
-			<th>Média</th>
+			<th rowspan="3">Área</th>
+			<th rowspan="3">Disciplinas</th>
+			<th colspan="2">Notas</th>
+			<th rowspan="3">Média</th>
 		
 		 </tr>
+		 <tr>
+		 	<th>Notas1</th>
+		 	<th>Notas 2</th>
 		</thead>
 
 		<tbody>
@@ -44,6 +57,7 @@
 				<td>0</td>
 				<td>0</td>
 				<td>0</td>
+				
 
 			</tr>
 
@@ -62,8 +76,8 @@
 			</tr>
 
 			<tr>
-				<th colspan="4">Média de Exatas</th>
-				<td>0</td>
+				<th colspan="4"> Total da Média de Exatas</th>
+				<td class="total">0</td>
 			</tr>
 
 			<tr>
@@ -79,6 +93,10 @@
 				<td>0</td>
 				<td>0</td>
 				<td>0</td>
+			</tr>
+			<tr>
+				<th colspan="4">Total da Média de Humanas</th>
+				<td class="total">0</td>
 			</tr>
 
 			
