@@ -1,0 +1,114 @@
+:root{
+	--fonte-baixada: "amatic";
+	--tamanho-do-h1-e-do-h2: 30px;
+	--tamanho-do-paragráfo: 19px;
+	--cor-do-header: #bfbdc1;
+	--cor-do-main: #37323E;
+	--tamanho-da-lista: 19px;
+	--borda-arredondada: 20px;
+}
+
+header{
+	background-color: var(--cor-do-header);
+	border-radius: var(--borda-arredondada);
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: white;
+	cursor: pointer;
+}
+
+li{
+	font-family: var(--fonte-baixada);
+	list-style: none;
+	padding: 10px;
+	color: black;
+	display: inline-block;
+	font-size: var(--tamanho-da-lista);
+}
+
+
+h1 {
+	font-family: var(--fonte-baixada);
+	text-align: center;
+	font-size: var(--tamanho-do-h1-e-do-h2);
+}
+
+h2{
+	font-family: var(--fonte-baixada);
+	text-align: center;
+	font-size: var(--tamanho-do-h1-e-do-h2);
+}
+
+article{
+	background-color: var(--cor-do-main);
+	border-radius: var(--borda-arredondada);
+	color: white;
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+	margin: 10px;
+}
+
+a{
+	text-decoration: underline;
+	color: white;
+}
+
+footer{
+	text-align: center;
+	font-family: var(--fonte-baixada);
+	margin: 30px;
+}
+
+footer a{
+	color: black;
+	font-family: var(--fonte-baixada);
+}
+
+.lista{
+	color: white;
+	text-align: center;
+
+}
+
+.estoicismo{
+	margin-bottom: 20px;
+	height: 300px;
+	max-width: 1440px;
+	max-height: 900px;
+	min-width: 375px;
+	min-height: 667px;
+}
+
+.epicuro{
+	margin-bottom: 20px;
+	height: 300px;
+	max-width: 1440px;
+	max-height: 900px;
+	min-width: 375px;
+	min-height: 667px;
+}
+
+.ceticismo{
+	margin-bottom: 20px;
+	height: 300px;
+	max-width: 1440px;
+	max-height: 900px;
+	min-width: 375px;
+	min-height: 667px;
+}
+
+.teorias{
+	color: white;
+}

@@ -1,0 +1,102 @@
+:root{
+	--fonte-baixada: "amatic";
+	--tamanho-do-h1-e-do-h2: 30px;
+	--tamanho-do-paragráfo: 19px;
+	--cor-do-header: #bfbdc1;
+	--cor-do-main: #37323E;
+	--tamanho-da-lista: 19px;
+	--borda-arredondada: 20px;
+}
+
+
+header{
+	background-color: var(--cor-do-header);
+	border-radius: 20px;
+
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+header li{
+	display: inline-block;
+	padding: 10px;
+	list-style: none;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-da-lista);
+
+}
+
+article{
+	background-color: var(--cor-do-main);
+	color: white;
+	text-align: justify;
+	border-radius: var(--borda-arredondada);
+
+}
+
+article a{
+	text-decoration: underline;
+	color: white;
+}
+
+
+h1{
+	text-align: center;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+}
+
+h2{
+	text-align: center;
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+}
+
+main p{
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-paragráfo);
+	text-align: justify;
+	margin: 10px;
+}
+
+img{
+	height: 300px;
+	margin-left: 30%;
+	padding-top: 20px;
+	max-width: 1024px;
+	max-height: 768px;
+	min-height: 320px;
+	min-height: 568px;
+}
+
+aside{
+	font-family: var(--fonte-baixada);
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+
+footer{
+	text-align: center;
+	font-family: var(--fonte-baixada);
+	margin: 30px;
+}
+
+footer a{
+	text-decoration: underline;
+	color: black;
+}
+
+.filosofo{
+	color: white;
+}
+
