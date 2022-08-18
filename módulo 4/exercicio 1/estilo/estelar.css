@@ -1,0 +1,158 @@
+:root{
+	--fonte-baixada: "amatic";
+	--tamanho-da-fonte-do-header: 30px;
+	--margem-a-direita: 600px;
+	--borda-arredondada-do-header: 30px;
+	--alinhamento-do-paragráfo: justify;
+	--altura-da-linha: 2em;
+	--padding-left-parágrafo: 10px;
+	--borda-arredondada-do-paragráfo: 20px;
+	--padding-da-lista: 10px;
+	--alinhamento-do-h1-e-do-h2: center;
+	--tamanho-do-h1-e-do-h2: 40px;
+	--alinhamento-do-h3: left;
+	--padding-top-do-h3: 20px;
+	--padding-left-do-h3: 20px;
+	--tamanho-do-paragráfo: 25px;
+
+}
+
+
+header{
+	background-color: black;
+	font-size: var(--tamanho-da-fonte-do-header);
+	border-radius: var(--borda-arredondada-do-header);
+
+
+}
+
+header li{
+	color: white;
+	padding: 10px;
+	list-style: none;
+	display: inline-block;
+	font-family: var(--fonte-baixada);
+	font-size: 2.3vw;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-family: var(--fonte-baixada);
+}
+
+header a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: green;
+	text-decoration: underline;
+}
+
+h1{
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	color: white;
+
+}
+
+h2{
+	text-align: var(--alinhamento-do-h1-e-do-h2);
+	font-size: 2.3vw;
+	font-family: var(--fonte-baixada);
+
+
+}
+
+h3{
+	text-align: var(--alinhamento-do-h3);
+	font-family: var(--fonte-baixada);
+	font-size: var(--tamanho-do-h1-e-do-h2);
+	padding-top: var(--padding-top-do-h3);
+	padding-left: var(--padding-left-do-h3);
+
+}
+
+p{
+	text-align: var(--alinhamento-do-paragráfo);
+	line-height: var(--altura-da-linha);
+	font-family: var(--fonte-baixada);
+	font-size: 2.3vw;
+	padding-left: var(--padding-left-parágrafo);
+	margin-left: 20px;
+}
+
+.imagem1{
+	background-image: url("../imagens/estelar1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+
+}
+
+.imagem2{
+	background-image: url("../imagens/estelar2.webp");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.imagem3{
+	background-image: url("../imagens/estelar3.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.imagem3 a{
+	color: white;
+}
+
+.imagem3 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+.imagem4{
+	background-image: url("../imagens/estela4.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.imagem4 a{
+	color: white;
+}
+
+.imagem4 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+.estelar{
+	text-decoration: underline;
+	color: green;
+}
+
+footer{
+	text-align: center;
+    color: black;
+    font-family: var(--fonte-baixada);
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: green;
+
+}
+
