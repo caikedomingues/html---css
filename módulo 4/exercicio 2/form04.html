@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+	<meta charset="utf-8">
 	<meta name="viewport"
 	content="width=device-width, initial-scale 1.0">
 	<title> Formulários</title>
@@ -8,10 +9,32 @@
 
 <body>
 	<h1>Teste de Formulários</h1>
-	<form action="cadastro.php" autocomplete="off" method="get">
+	<form action="cadastro.php" autocomplete="on" method="get">
+
+	<fieldset>
+		<legend>Dados Pessoais</legend>
+		<p>
+			<label for="inome">Nome:</label>
+			<input type="text" name="nome" id="inome" required maxlenght="20">
+		</p>
 		<p>
 			<label for="iemail">Email:</label>
-			<input type="Email" id="iemail" name="email">
+			<input type="Email" id="iemail" name="email" required autocomplete="email">
+		</p>
+
+		<p>
+			<label for="itelefone">Telefone</label>
+			<input type="tel" name="telefone" id="itelefone" autocomplete="tel" required pattern="^[0-9]{4,5}-[0-9]{4,5}$" placeholder="xxxxx-xxxx">
+		</p>
+
+	</fieldset>
+
+		<!--Estudar mais sobre RegEx expressões regulares -->
+
+
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
 		</p>
 
 
