@@ -33,6 +33,12 @@ Telas grandes:  acima de 1200px;
 	main h1{
 		text-shadow: none;
 		color: black;
+		width: 90vw;
+	}
+
+	main::after{
+		content: 'essa impressão foi feita por www.cursoemvideo.com';
+		text-decoration: overline;
 	}
 
 	img#phone{display: none;}
@@ -44,6 +50,7 @@ img#print{display: block;}
 img#pc{display: none;}
 
 img#tv{display: none;}
+
 
 
 	
