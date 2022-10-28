@@ -20,7 +20,7 @@ header > h1{
 }
 
 menu{
-	display: block;
+	display: none;
 }
 
 menu > ul{
@@ -41,6 +41,24 @@ menu > ul > li > a:hover{
 	background-color: gray;
 }
 
+.material-icons{
+	background-color: rgb(48, 48, 48);
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+
+}
+
+.material-icons:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
 main{
 	width: 90vw;
 	background-color: white;
@@ -59,3 +77,4 @@ article > p{
 	margin-bottom: 20px;
 	text-indent: 20px;
 }
+
